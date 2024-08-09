@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron {
+    background: linear-gradient(45deg, #007bff, #6610f2);
+    color: #fff;
+    padding: 60px 30px;
+}
+
+.btn-lg {
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-lg:hover {
+    background-color: #0056b3;
+}
+
+.feature-card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #343a40;
+    color: #ccc;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.social-icon {
+    width: 30px;
+    margin: 0 10px;
+}
